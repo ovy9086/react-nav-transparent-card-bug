@@ -26,8 +26,8 @@ export class Screen2 extends React.Component {
           onPress={() => this.props.navigation.navigate("Screen3")}
         />
         <Text>
-          When navigating back to this screen, you'll see the button above is
-          not clickable :(
+          On Android, the button above is not clickable.
+          On iOS, when navigating back to this screen, you'll see the button above becomes uncklicable :(
         </Text>
       </View>
     );
