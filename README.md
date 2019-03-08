@@ -1,6 +1,6 @@
 # react-nav-transparent-card-bug
 
-React-Navigation 3 'transparentCard' issue when used in conjunction with `useScreens()`
+React-Navigation 3 `transparentCard` issue when used in conjunction with `useScreens()`
 
 Using a React-Navigation StackNavigator, that has set `transparentCard: true` cause some weird issues when also `useScreens()` from `react-native-screens` is used.
 
